@@ -2,10 +2,10 @@ import logoHeader from "../../assets/icons/logoHeader.svg";
 import arrowRightIcon from "../../assets/icons/arrowRightIcon.svg";
 import searchIcon from "../../assets/icons/searchIcon.svg";
 import { SubheadComponentProps } from "../../types/SubheadComponentProps";
-import { useDispatch } from "react-redux";
-import { AppDispatch } from "../../redux/app/store";
-import { useState } from "react";
-import { searchProductsByTitle } from "../../redux/features/search/searchSlice";
+// import { useDispatch } from "react-redux";
+// import { AppDispatch } from "../../redux/app/store";
+// import { useState } from "react";
+// import { searchProductsByTitle } from "../../redux/features/search/searchSlice";
 
 import AnimatedDiv from "../../animations/AnimatedDiv";
 
@@ -13,13 +13,13 @@ const SubheadComponent: React.FC<SubheadComponentProps> = ({
   mainLabel,
   isSearch,
 }) => {
-  const dispatch = useDispatch<AppDispatch>();
-  const [searchQuery, setSearchQuery] = useState("");
+  // const dispatch = useDispatch<AppDispatch>();
+  // const [searchQuery, setSearchQuery] = useState("");
 
-  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchQuery(e.target.value);
-    dispatch(searchProductsByTitle(e.target.value));
-  };
+  // const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  //   setSearchQuery(e.target.value);
+  //   dispatch(searchProductsByTitle(e.target.value));
+  // };
 
   return (
     <section className="bg-hero-subhead bg-no-repeat bg-center bg-cover w-full mr-0 lg:mr-[58px] pb-[37px] px-4 flex flex-col items-center lg:items-start">

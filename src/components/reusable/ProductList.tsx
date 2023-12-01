@@ -1,8 +1,8 @@
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 import AnimatedDiv from "../../animations/AnimatedDiv";
 import { ProductTypes } from "../../types/ProductsTypes";
 import ProductCard from "../reusable/ProductCard";
-import { RootState } from "../../redux/app/store";
+// import { RootState } from "../../redux/app/store";
 
 import React from "react";
 // import ShopLoadingComponent from "./ShopLoadingComponent";
@@ -12,9 +12,9 @@ type ProductListProps = {
 };
 
 const ProductList: React.FC<ProductListProps> = ({ items }) => {
-  const productsStatus = useSelector(
-    (state: RootState) => state.products.status
-  );
+  // const productsStatus = useSelector(
+  //   (state: RootState) => state.products.status
+  // );
   // if (productsStatus === "loading") {
   //   return <ShopLoadingComponent />;
   // }

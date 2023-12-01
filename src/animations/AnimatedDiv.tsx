@@ -10,8 +10,8 @@ interface AnimatedDivProps {
 const AnimatedDiv: React.FC<AnimatedDivProps> = ({
   children,
   className,
-  viewport,
-}: any) => {
+}: // viewport,
+any) => {
   return (
     <motion.div
       variants={fadeIn}
