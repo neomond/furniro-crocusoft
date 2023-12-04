@@ -1,7 +1,7 @@
 import AnimatedDiv from "../../animations/AnimatedDiv";
 function HeroComponent() {
   return (
-    <section className="bg-cover h-screen bg-fixed bg-no-repeat bg-center flex items-center justify-end text-black bg-[url(/primaryHero.svg)]">
+    <section className="bg-primary-hero-main bg-cover h-screen bg-fixed bg-no-repeat bg-center flex items-center justify-end text-black ">
       <AnimatedDiv
         viewport={{ once: true }}
         className="bg-[#FFF3E3] lg:w-5/12 w-full mr-0 rounded-lg lg:mr-[58px] pt-[62px] pb-[37px] px-4 lg:pl-[40px] flex flex-col items-center lg:items-start"

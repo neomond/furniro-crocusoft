@@ -7,7 +7,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        "hero-subhead": "url('/src/assets/images/subheadImg.svg')",
+        "primary-hero-main": "url('./assets/images/primaryHero.svg')",
+        "hero-subhead": "url('./assets/images/subheadImg.svg')",
       },
     },
   },
